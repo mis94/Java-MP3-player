@@ -1,5 +1,3 @@
-package koko;
-
 import javafx.embed.swing.JFXPanel;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
@@ -213,7 +211,7 @@ class PlayerTest extends JFrame {
 					Play();
 				} else {
 					mediaPlayer.stop();
-					btnPlay.setText("►");
+					btnPlay.setText("â–º");
 					songIsPlaying = false;
 				}
 			}
@@ -262,7 +260,7 @@ class PlayerTest extends JFrame {
 							contentPane.setImage(null);
 							Deleted = true;
 							mediaPlayer.stop();
-							btnPlay.setText("►");
+							btnPlay.setText("â–º");
 							songIsPlaying = false;
 
 							lblNewLabel.setText("Echo Player");
@@ -287,7 +285,7 @@ class PlayerTest extends JFrame {
 	}
 
 	void playButton() {
-		btnPlay = new OvalButton("►");
+		btnPlay = new OvalButton("â–º");
 		btnPlay.setFont(new Font("Dialog", Font.BOLD, 26));
 
 		btnPlay.setBounds(240, 30, 54, 54);
@@ -306,7 +304,7 @@ class PlayerTest extends JFrame {
 		if (Deleted)
 			return;
 		if (songIsPlaying && !newChoice) {
-			btnPlay.setText("►");
+			btnPlay.setText("â–º");
 			mediaPlayer.pause();
 			songIsPlaying = false;
 			return;
@@ -423,14 +421,14 @@ class PlayerTest extends JFrame {
 	}
 
 	void StopButton() {
-		btnStop = new RoundButton("▊");
+		btnStop = new RoundButton("â–Š");
 		btnStop.setHorizontalAlignment(SwingConstants.RIGHT);
 		btnStop.setHorizontalTextPosition(SwingConstants.CENTER);
 		btnStop.setBounds(304, 46, 80, 23);
 		btnStop.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				mediaPlayer.stop();
-				btnPlay.setText("►");
+				btnPlay.setText("â–º");
 				songIsPlaying = false;
 			}
 		});
@@ -438,7 +436,7 @@ class PlayerTest extends JFrame {
 	}
 
 	void Shuffle() {
-		Shuffle = new RoundButton("🔀       ");
+		Shuffle = new RoundButton("ðŸ”€       ");
 		Shuffle.setFont(new Font("Segoe UI Symbol", Font.BOLD, 12));
 		Shuffle.setSize(75, 23);
 		Shuffle.setLocation(114, 46);
@@ -525,7 +523,7 @@ class PlayerTest extends JFrame {
 	void Mute_volume()
 	{
 		
-		Mute = new RoundButton("    🔊");
+		Mute = new RoundButton("    ðŸ”Š");
 		Mute.setFont(new Font("Segoe UI Symbol", Font.BOLD, 12));
 		Mute.setSize(64, 23);
 		Mute.setLocation(355, 46);
@@ -533,7 +531,7 @@ class PlayerTest extends JFrame {
 			public void actionPerformed(ActionEvent arg0) {
 				if(slider.getValue()>0)
 				{
-					Mute.setText("    🔇");
+					Mute.setText("    ðŸ”‡");
 					Previous_Volume_Value= slider.getValue();
 					slider.setValue(0);
 					lblNewLabel_1.setText("Volume: " + slider.getValue() + "%");
@@ -542,7 +540,7 @@ class PlayerTest extends JFrame {
 				}
 				else
 				{
-					Mute.setText("    🔊");				
+					Mute.setText("    ðŸ”Š");				
 					slider.setValue(Previous_Volume_Value);
 					lblNewLabel_1.setText("Volume: " + slider.getValue() + "%");
 					mediaPlayer.setVolume((double) (slider.getValue() / 100.0));
@@ -694,13 +692,13 @@ class PlayerTest extends JFrame {
 	}
 
 	void Forward_And_Rewind() {
-		JButton Forward = new RoundButton("      ►►");
+		JButton Forward = new RoundButton("      â–ºâ–º");
 		Forward.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				Play_Next();
 			}
 		});
-		JButton Rewind = new RoundButton("◄◄   ");
+		JButton Rewind = new RoundButton("â—„â—„   ");
 		Rewind.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				Play_Previous();
@@ -715,14 +713,14 @@ class PlayerTest extends JFrame {
 
 	// ====================================================================================
 	void Repeat() {
-		RoundButton Repeat = new RoundButton("🔁         ");
+		RoundButton Repeat = new RoundButton("ðŸ”�         ");
 		Repeat.setFont(new Font("Segoe UI Symbol", Font.BOLD, 12));
 		Repeat.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				if (repeat) {
 					repeat = false;
 					Repeat.setFont(new Font("Segoe UI Symbol", Font.BOLD, 12));
-					Repeat.setText("🔁         ");
+					Repeat.setText("ðŸ”�         ");
 					Repeat.Swap_colors();
 				} else {
 					repeat = true;
@@ -774,12 +772,12 @@ class PlayerTest extends JFrame {
 		Mode_Name.setBounds(455, 11, 66, 19);
 		p.add(Mode_Name);
 		
-		JButton Next_Mode = new RoundButton("⇒");
+		JButton Next_Mode = new RoundButton("â‡’");
 		Next_Mode.setFont(new Font("Segoe UI Symbol", Font.BOLD, 15));
 		Next_Mode.setBounds(475, 34, 46, 23);
 		p.add(Next_Mode);
 		
-		JButton Previous_Mode = new RoundButton("⇐");
+		JButton Previous_Mode = new RoundButton("â‡�");
 		Previous_Mode.setFont(new Font("Segoe UI Symbol", Font.BOLD, 15));
 		Previous_Mode.setBounds(424, 34, 46, 23);
 		p.add(Previous_Mode);
