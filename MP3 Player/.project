@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>FinalProduct</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/Logo.png</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/Logo.png</locationURI>
+		</link>
+		<link>
+			<name>src/clio-emt-speaker.png</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/clio-emt-speaker.png</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
