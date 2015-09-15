@@ -6,7 +6,7 @@ Team members:
 - Mohamed Samir(Github: MohamedSamir43).
 - Youssef Khaled(Github: Yousef-Khaled).
 - Osama Fathy(Github: OsamaFathy).
-- 
+
 What is used:
 - JavaFX ----> https://docs.oracle.com/javafx/2/overview/jfxpub-overview.htm .... it helped us too much with a set of useful functions
 - mp3agic library ----> https://github.com/mpatric/mp3agic .... we used it to be able to access the metadata of media files such as its image if it had and other info such as album name, artist name and title.
