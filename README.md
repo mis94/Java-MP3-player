@@ -9,4 +9,4 @@ How to use:
 - Install the JavaFX to your IDE for me I used this as I use eclipse: http://www.eclipse.org/efxclipse/install.html
 - Download the jar file of mp3agic library and add it to your project: http://www.mediafire.com/download/52d9c9vg1i5l0si/mp3agic-0.8.2.jar
 
-Screenshot: http://imgur.com/9Q3einu
+Screenshot: http://imgur.com/9Q3einu .
