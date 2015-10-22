@@ -100,6 +100,7 @@ class PlayerTest extends JFrame {
 	private RoundButton Shuffle;
 	private RoundButton Mute;
 	private int Previous_Volume_Value;
+	private int Current_Volume = 50;
 	boolean Is_Shuffled;
 	private JLabel lblNewLabel_1;
     private int Mode_index;
@@ -300,7 +301,7 @@ class PlayerTest extends JFrame {
 	}
 
 	void Play() {
-
+		
 		if (Deleted)
 			return;
 		if (songIsPlaying && !newChoice) {
@@ -418,6 +419,7 @@ class PlayerTest extends JFrame {
 			}
 		});
 		eq();
+		UpdateVolume();
 	}
 
 	void StopButton() {
@@ -472,7 +474,7 @@ class PlayerTest extends JFrame {
 		panel.add(Shuffle);
 
 	}
-
+	
 	void Volume() {
 
 		UIDefaults sliderDefaults = new UIDefaults();
@@ -510,18 +512,28 @@ class PlayerTest extends JFrame {
 		slider.addChangeListener(new ChangeListener() {
 			public void stateChanged(ChangeEvent arg0) {
 				if (mediaPlayer == null)
+				{
+					Current_Volume= slider.getValue();
 					slider.setValue(slider.getValue());
+				}
 				else
+				{
+					Current_Volume= slider.getValue();
 					mediaPlayer.setVolume((double) (slider.getValue() / 100.0));
+				}
 				lblNewLabel_1.setText("Volume: " + slider.getValue() + "%");
-
 			}
 		});
 		panel.add(slider);
 
 	}
-	void Mute_volume()
-	{
+	
+	void UpdateVolume() {
+		slider.setValue(Current_Volume);
+		mediaPlayer.setVolume((double) (slider.getValue() / 100.0));
+	}
+	
+	void Mute_volume() {
 		
 		Mute = new RoundButton("    🔊");
 		Mute.setFont(new Font("Segoe UI Symbol", Font.BOLD, 12));
