@@ -1,5 +1,5 @@
 # Java-MP3-player
-An open source project to develop an MP3 player using java programming language with almost all features of popular media players used by users. The team implemented this project consisted of me and three of my colleagues in faculty.
+An open source project to develop an MP3 player using java programming language with almost all features of popular media players used by users. I worked in a team with three of my colleagues in faculty.
 
 Team members:
 - Mohamed Ibrahim(Github: mis94).
