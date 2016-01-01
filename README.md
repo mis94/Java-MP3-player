@@ -9,7 +9,7 @@ Team members:
 
 What is used:
 - JavaFX ----> https://docs.oracle.com/javafx/2/overview/jfxpub-overview.htm .... it helped us too much with a set of useful functions
-- mp3agic library ----> https://github.com/mpatric/mp3agic .... we used it to be able to access the metadata of media files such as its image if it had and other info such as album name, artist name and title..
+- mp3agic library ----> https://github.com/mpatric/mp3agic .... we used it to be able to access the metadata of media files such as its image if it had and other info such as album name, artist name and title.
 
 How to use:
 - Install the JavaFX to your IDE for me I used this as I use eclipse: http://www.eclipse.org/efxclipse/install.html
