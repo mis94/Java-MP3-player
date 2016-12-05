@@ -1,5 +1,5 @@
 # Java-MP3-player
-an MP3 player built using java programming language with almost all features of popular media players used by users.
+an MP3 player built using Java programming language with almost all features of popular media players used by users.
 
 Team members:
 - Mohamed Ibrahim(Github: mis94).
