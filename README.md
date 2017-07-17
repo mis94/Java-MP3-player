@@ -16,3 +16,10 @@ How to use:
 - Download the jar file of mp3agic library and add it to your project: http://www.mediafire.com/download/52d9c9vg1i5l0si/mp3agic-0.8.2.jar
 
 ![alt tag](https://raw.githubusercontent.com/mis94/Java-MP3-player/master/Screenshot.png)
+
+
+### Contributing
+The project is still under development and contribution is welcomed including but not limited to adding new features, fixing bugs, adding or enhancing comments, improving naming conventions or code structure to make it cleaner, shorter or simpler. You can do so through issues or directly with a pull request.
+
+### License
+Echo MP3 player is licensed under the <a href="https://github.com/mis94/Graphtona-2D-Package/blob/master/LICENSE.md"> MIT License </a>
