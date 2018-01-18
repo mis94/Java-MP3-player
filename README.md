@@ -2,10 +2,10 @@
 an MP3 player built using Java programming language with almost all features of popular media players used by users.
 
 Team members:
-- Mohamed Ibrahim(Github: mis94).
-- Mohamed Samir(Github: MohamedSamir43).
-- Youssef Khaled(Github: Yousef-Khaled).
-- Osama Fathy(Github: OsamaFathy).
+- Mohamed Ibrahim (Github: mis94).
+- Mohamed Samir (Github: MohamedSamir43).
+- Youssef Khaled (Github: Yousef-Khaled).
+- Osama Fathy (Github: OsamaFathy).
 
 What is used:
 - JavaFX ----> https://docs.oracle.com/javafx/2/overview/jfxpub-overview.htm .... it helped us too much with a set of useful functions
