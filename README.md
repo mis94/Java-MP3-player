@@ -8,12 +8,12 @@ Team members:
 - Osama Fathy (Github: OsamaFathy).
 
 What is used:
-- JavaFX ----> https://docs.oracle.com/javafx/2/overview/jfxpub-overview.htm .... it helped us too much with a set of useful functions
-- mp3agic library ----> https://github.com/mpatric/mp3agic .... we used it to be able to access the metadata of media files such as its image if it had and other info such as album name, artist name and title.
+- <a href="https://docs.oracle.com/javafx/2/overview/jfxpub-overview.htm"> JavaFX </a> it helped us too much with a set of useful functions
+- <a href="https://github.com/mpatric/mp3agic"> mp3agic library </a> we used it to be able to access the metadata of media files such as its image if it had and other info such as album name, artist name and title.
 
 How to use:
 - Install the JavaFX to your IDE for me I used this as I use eclipse: http://www.eclipse.org/efxclipse/install.html
-- Download the jar file of mp3agic library and add it to your project: http://www.mediafire.com/download/52d9c9vg1i5l0si/mp3agic-0.8.2.jar
+- <a href="https://github.com/mpatric/mp3agic#building"> Build mp3agic library </a> and add the jar file to your project.
 
 ![alt tag](https://raw.githubusercontent.com/mis94/Java-MP3-player/master/Screenshot.png)
 
